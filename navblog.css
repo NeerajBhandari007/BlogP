@@ -17,8 +17,7 @@ body{
     justify-content: center;
     padding-bottom: 10px;
     font-weight: 700;
-    margin:0 1em;
-    
+    margin:0 1em;  
 }
 .head{
     font-size: 2rem;
@@ -134,7 +133,7 @@ h2{
 }
 .h3{
     font-weight:bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .imgt{
     text-align: center;
@@ -142,7 +141,7 @@ h2{
  
 }
 p{
-    font-family: Arial, sans-serif ;
+    font-family:Arial, Helvetica, sans-serif;
 }
 @media(max-width:670px){
     .inner{
@@ -151,12 +150,13 @@ p{
         margin: 0 auto;
     }
     .head{
-        font-size:1.5rem;
+        font-size:1.60rem;
     }
     .l1{
         flex-direction: column;
         align-items: center;   
         font-size: 1rem; 
+        font-weight:700;
     }
     .cont{
         flex-direction: column;
@@ -191,6 +191,19 @@ p{
     }
     .prr{
         height: 300px;
+    }
+    .column{
+        font-weight: 0;
+    }
+    .hea{
+        margin: 0px;
+    }
+    .f1{
+        padding:20px;
+    }
+    footer{
+        margin-top:20px;
+        padding:30px;
     }
 
     
